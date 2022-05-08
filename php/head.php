@@ -12,7 +12,7 @@
     <header>
         <div class="content">
         <div class="name">
-            <h3>Bwana chief</h3>
+        <a href="home.php" style="color: #000;cursor:pointer"><h3>Bwana Chief</h3></a>
         </div>
         <div class="link">
         <a href="#"><i class='bx bxl-instagram-alt bx-spin-hover bx-sm'></i></a>
@@ -30,7 +30,7 @@
                 <li><a href="#">Music</a></li>
                 <li><a href="#">Media</a></li>
                 <li><a href="#">Tour</a></li>
-                <li><a href="#">Shop</a></li>
+                <li><a href="home.php">Shop</a></li>
                 <li><a href="#">Contact</a></li>
                 
             </ul>

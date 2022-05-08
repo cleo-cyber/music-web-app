@@ -15,8 +15,9 @@
     <header>
         <div class="content">
         <div class="name">
-            <h3>Bwana chief</h3>
+            <a href="home.php" style="color: #000;cursor:pointer"><h3>Bwana Chief</h3></a>
         </div>
+
         <div class="link">
         <a href="#"><i class='bx bxl-instagram-alt bx-spin-hover bx-sm'></i></a>
             <a href="#"><i class='bx bxl-tiktok bx-spin-hover bx-sm'></i></a>
@@ -33,7 +34,7 @@
                 <li><a href="#">Music</a></li>
                 <li><a href="#">Media</a></li>
                 <li><a href="#">Tour</a></li>
-                <li><a href="#">Shop</a></li>
+                <li><a href="shop.php">Shop</a></li>
                 <li><a href="#">Contact</a></li>
                 
             </ul>
@@ -69,8 +70,9 @@
        <div class="about">
            <button><a href="#">ABOUT CHIEF</a></button>
        </div>
-
+    
        <div class="copy">
+           <hr>
        <small>&copy; Copyright 2022, Bwanachief Corporation</small> 
        </div>
 

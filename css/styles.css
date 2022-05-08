@@ -10,6 +10,7 @@ html{
     list-style: none;
     font-size: 20px;
 }
+
 body{
     background: url("../images/sketch.jpg");
     background-attachment: fixed;
@@ -226,7 +227,7 @@ footer button:hover{
     margin-top: 48vh;
     background-color: #000;
     width: 100%;
-    height: 5vh;
+    height: 10vh;
     z-index: 2;
 }
 .copy small{
