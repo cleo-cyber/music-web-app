@@ -1,6 +1,3 @@
-<?php
-
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -39,41 +36,3 @@
             </ul>
         </div>
     </header>
-
-    <section class="slider">
-        
-        <div class="slider1 slide">
-            <img src="../images/sketch2.jpg" alt="">
-            <h4>Music name</h4>
-            <a href="#">Get it now</a>
-        </div>
-        <div class="slider2 slide">
-            <img src="../images/body.jpg" alt="">
-            <h4>Music name</h4>
-            <a href="#">Get it now</a>
-        </div>
-        <div class="slider3 slide">
-            <img src="../images/dance.jpg" alt="">
-            <h4>Music name</h4>
-            <a href="#">Get it now</a>
-        </div>
-    </section>
-   <footer>
-       <div class="newsletter">
-       <h2>Follow Bwana chief</h2>
-       <form action="#">
-           <input type="email" name="email" placeholder="EMAIL ADDRESS" >
-           <button type="submit" name="submit" value="FOLLOW">FOLLOW</button>
-       </form>
-       </div>
-       <div class="about">
-           <button><a href="#">ABOUT CHIEF</a></button>
-       </div>
-
-       <div class="copy">
-       <small>&copy; Copyright 2022, Bwanachief Corporation</small> 
-       </div>
-
-   </footer>
-</body>
-</html>
