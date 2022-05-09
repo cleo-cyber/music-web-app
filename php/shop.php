@@ -9,23 +9,29 @@ include 'head.php';
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Shop with us</title>
     <style>
         
         #shops{
             display: flex;
-            margin-top: 10vh;
-            /* flex-wrap: wrap; */
+            /* margin-top: 10vh; */
+            background-color: #fff;
+            flex-wrap: wrap;
+            flex-direction: column;
+            
         }
         
-        .card{
-            background-color: #fff;
+        .cards{
             height: 50vh;
+            background-color: #fff;
             width: 30vw;
-            margin-left: 2vw;
-            margin-right: 2vw;
-            box-shadow:0 2px 5px black;
-            margin-bottom: 3vh;
+            box-shadow: 0 2px 5px #333;
+            margin-top: 10vh;
+            margin-bottom: 10vh;
+            margin-left: 3vw;
+            display: flex;
+            
         }
         #shop_hero{
             background: url("../images/hand.jpg");
@@ -47,7 +53,7 @@ include 'head.php';
             margin-left:18vw ;
             /* margin-right: 20vw; */
             line-height: 1.5em;
-            letter-spacing: 5px;
+            /* letter-spacing: 5px; */
         }
         .contai h3{
             position: absolute;
@@ -111,7 +117,63 @@ include 'head.php';
            border: 1px solid #ddd;
        }
       
-        
+       #shipping_info{
+           background-color: #f4f4f4;
+           min-height: 50vh;
+           
+       }
+       .shipping{
+           display: flex;
+           justify-content: space-around;
+           /* margin-left: 20vw; */
+           flex-wrap: wrap;
+           
+       }
+       
+        .info{
+            margin-top: 20vh;
+            margin-bottom: 20vh;
+            display: flex;
+            /* margin-left: ; */
+        }
+        .info span{
+            margin-right: 2vw;
+            
+        }
+        .info h1{
+            color: #333;
+            margin-bottom: 5px;
+            margin-top: 10px;
+            font-size: 25px;
+            font-weight: 900;
+        }
+        .info p{
+            color: #333;
+        }
+        .products{
+            margin: 0 auto;
+
+        }
+        .products h2{
+            font-size: 50px;
+            margin-top: 10vh;
+            /* text-decoration:underline; */
+            margin-left: 14vw;
+            color: #04342b;
+        }
+        .products h2 span{
+            font-size: 50px;
+            color: darkgoldenrod;
+        }
+        .products p{
+            letter-spacing: 5px;
+            margin-top: 3vh;
+            color: #333;
+            line-height: 5vh;
+        }
+       .products .para{
+            margin-left: 26vh;
+        }
     </style>
 </head>
 <body>
@@ -133,7 +195,40 @@ include 'head.php';
     </div>
     </div>
 </section>
+<section id="shipping_info">
+    <div class="shipping">
+    <div class="info">    
+    <span><i class='bx bxs-ship bx-lg bx-border-circle' style='color:orange;border: 1px dotted orange; '  ></i></span>
+    <div class="details">
+    <h1>Free shipping</h1>
+        <p>When order over $75</p>
+        </div>
+    </div>
+    <div class="info">
+        <span><i class='bx bxs-phone-call bx-lg bx-border-circle' style='color:orange;border:1px dotted orange' ></i></span>
+        <div class="details">
+        <h1>24/7 Support</h1>
+        <p>Get support all day</p>
+        </div>
+    </div>
+   
+    <div class="info">
+        <span><i class='bx bx-refresh bx-lg bx-border-circle' style="color: orange; border: 1px dotted orange;"></i></span>
+        <div class="details">
+        <h1>Refund</h1>
+        <p>Get refunded within 3 days</p>
+        </div>
+        </div>
+    </div>
+    </div>
+</section>
   <section id="shops">
+      <div class="products">
+          <h2><span>Our</span> Products</h2>
+          <p>Below is  a collection of our available products check the out<br></p>
+          <p class="para">Value for your money</p>
+      </div>
+      <div class="cards">
       <div class="card">
 
       </div>
@@ -142,6 +237,7 @@ include 'head.php';
       </div>
       <div class="card">
 
+      </div>
       </div>
   </section>
 </body>
